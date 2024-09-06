@@ -1,0 +1,10 @@
+com\runners\FailedRerun.class
+com\stepdefinitions\AccountpageSteps.class
+parallel\AccountpageSteps.class
+parallel\Hooks.class
+com\runners\TestRunner.class
+com\hooks\Hooks.class
+com\stepdefinitions\LoginPageSteps.class
+parallel\LoginPageSteps.class
+com\runners\TestNgRunnerCucumber7.class
+parallel\ParallelRun.class

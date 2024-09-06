@@ -1,0 +1,218 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HybridCucumber</groupId>
+  <artifactId>Hybrid-POM-Cucumber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <dependencies>
+	
+	<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.18.0</version>
+</dependency>
+
+ <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.18.0</version>
+    <scope>test</scope>
+ </dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.1</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.21.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version>
+</dependency>
+
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.14.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.18.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
+
+<!--<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-core</artifactId>
+    <version>4.1.20</version>
+</dependency>
+
+<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-junit</artifactId>
+    <version>4.1.20</version>
+</dependency>
+
+<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-ensure</artifactId>
+    <version>4.1.20</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-cucumber</artifactId>
+    <version>4.1.20</version>
+</dependency>-->
+
+  </dependencies>
+  
+  <build>	
+	<plugins>		
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      
+      <!-- This plugin is to execute serenity integration with cucumber junit -->
+      <!--<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+					<includes>
+						<include>**/SerenityRunner.java</include>
+					</includes>
+					<parallel>methods</parallel>
+					<threadCount>2</threadCount>
+					<useUnlimitedThreads>false</useUnlimitedThreads>
+					<properties>
+                       <property>
+                           <name>dataproviderthreadcount</name>
+                           <value>4</value>
+                       </property>
+                   </properties>
+                   
+				</configuration>
+        </plugin>-->
+      
+      <!-- This plugin is used for testNG execution from XML with cucumber 7-->
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<properties>
+                       <property>
+                           <name>dataproviderthreadcount</name>
+                           <value>3</value>
+                       </property>
+                   </properties>
+                   
+				</configuration>
+        </plugin>
+      
+      <!-- This plugin is for testNg parallel execution with surefire -->
+      
+       <!--<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+					<includes>
+						<include>**/ParallelRun.java</include>
+					</includes>
+					<parallel>methods</parallel>
+					<threadCount>2</threadCount>
+					<useUnlimitedThreads>false</useUnlimitedThreads>
+					<testFailureIgnore>true</testFailureIgnore>
+					<properties>
+                       <property>
+                           <name>dataproviderthreadcount</name>
+                           <value>4</value>
+                       </property>
+                   </properties>
+                   
+				</configuration>
+        </plugin> -->
+        
+        <!-- This plugin is for junit parallel feature file execution with failsafe -->
+        
+        <!-- <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>integration-test</goal>
+              <goal>verify</goal>
+            </goals>
+            <configuration>
+				<includes>
+					<include>**/TestRunner.java</include>
+				</includes>
+				<parallel>methods</parallel>
+				<threadCount>4</threadCount>
+				<perCoreThreadCount>true</perCoreThreadCount>
+			</configuration>
+          </execution>
+        </executions>
+      </plugin> -->
+      
+      <!--<plugin>
+		<groupId>net.serenity-bdd.maven.plugins</groupId>
+    <artifactId>serenity-maven-plugin</artifactId>
+    <version>4.1.20</version>
+    <configuration>
+		<tags></tags>
+	</configuration>
+	<dependencies>
+		<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-core</artifactId>
+    <version>4.1.20</version>
+</dependency>		
+	</dependencies>
+	<executions>
+		<execution>
+			<id>serenity-reports</id>
+			<phase>post-integration-test</phase>
+			<goals>
+				<goal>aggregate</goal>
+			</goals>
+		</execution>
+	</executions>
+	  </plugin>-->
+      
+	</plugins>
+  </build>
+  
+</project>
