@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = {"src/test/resources/features"}, glue = {"com.stepdefinitions","com.hooks"},
 plugin = {"pretty","html:Reports/result.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		 "timeline:test-output-thread/"},
-publish = true, dryRun = true)
+publish = true, dryRun = false)
 public class TestNgRunnerCucumber7 extends AbstractTestNGCucumberTests{
 	
 	@Override
