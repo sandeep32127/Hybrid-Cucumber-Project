@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="1" skipped="1">
+<testng-results ignored="0" total="7" passed="6" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-05T16:32:19 IST" name="Default suite" finished-at="2024-07-05T16:32:53 IST" duration-ms="34582">
+  <suite started-at="2025-04-19T11:01:27 IST" name="Default suite" finished-at="2025-04-19T11:02:25 IST" duration-ms="58014">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-05T16:32:19 IST" name="Default test" finished-at="2024-07-05T16:32:53 IST" duration-ms="34582">
+    <test started-at="2025-04-19T11:01:27 IST" name="Default test" finished-at="2025-04-19T11:02:25 IST" duration-ms="58014">
       <class name="com.runners.TestNgRunnerCucumber7">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:19 IST" name="setUpClass" finished-at="2024-07-05T16:32:20 IST" duration-ms="989" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:27 IST" name="setUpClass" finished-at="2025-04-19T11:01:29 IST" duration-ms="2236" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@307cf964]]>
+                <![CDATA[org.testng.TestRunner@691567ea]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:35 IST" duration-ms="15573" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:01:58 IST" duration-ms="29402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:32 IST" duration-ms="11769" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:02:00 IST" duration-ms="30932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:33 IST" duration-ms="13701" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:02:14 IST" duration-ms="45141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,77 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:44 IST" duration-ms="23854" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the My Account navigation bar items"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Verifying My Account Page functionalities"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:45 IST" duration-ms="24983" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logins with the correct credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be verifying the functionalities of Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 18.954
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [605ed90f0b62ba9eef1ffe05161839ac, get {url=https://magento.softwaretestingboard.com/customer/account/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Papu\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62854/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 605ed90f0b62ba9eef1ffe05161839ac]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.954
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [605ed90f0b62ba9eef1ffe05161839ac, get {url=https://magento.softwaretestingboard.com/customer/account/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Papu\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62854/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 605ed90f0b62ba9eef1ffe05161839ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at com.stepdefinitions.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:18)
-at ✽.User is on Login Page(file:///C:/Users/Papu/eclipse-workspace/Hybrid-POM-Cucumber/src/test/resources/features/LoginPageDuplicateForParallelExec.feature:19)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:25 IST" duration-ms="5124" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:01:51 IST" duration-ms="22455" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -189,7 +119,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-05T16:32:30 IST" duration-ms="10499" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:02:03 IST" duration-ms="33591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +135,39 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2024-07-05T16:32:45 IST" name="tearDownClass" finished-at="2024-07-05T16:32:53 IST" duration-ms="8558" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:02:05 IST" duration-ms="35840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the My Account navigation bar items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying My Account Page functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:01:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T11:02:04 IST" duration-ms="35091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logins with the correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be verifying the functionalities of Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.TestNgRunnerCucumber7@6e2829c7]" started-at="2025-04-19T11:02:14 IST" name="tearDownClass" finished-at="2025-04-19T11:02:25 IST" duration-ms="10518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

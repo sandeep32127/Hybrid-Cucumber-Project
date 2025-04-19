@@ -2,42 +2,26 @@
 <testng-results ignored="0" total="7" passed="6" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T21:08:13 IST" name="Check Cucumber 7" finished-at="2024-08-28T21:08:53 IST" duration-ms="39810">
+  <suite started-at="2024-10-08T16:03:42 IST" name="Check Cucumber 7" finished-at="2024-10-08T16:04:24 IST" duration-ms="41827">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-08-28T21:08:13 IST" name="Test Cucumber" finished-at="2024-08-28T21:08:53 IST" duration-ms="39810">
+    <test started-at="2024-10-08T16:03:42 IST" name="Test Cucumber" finished-at="2024-10-08T16:04:24 IST" duration-ms="41827">
       <class name="com.runners.TestNgRunnerCucumber7">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:13 IST" name="setUpClass" finished-at="2024-08-28T21:08:14 IST" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:42 IST" name="setUpClass" finished-at="2024-10-08T16:03:44 IST" duration-ms="1797" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4001d8c1]]>
+                <![CDATA[org.testng.TestRunner@5fed9976]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:31 IST" duration-ms="16690" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should verify the login page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be verifying the functionalities of Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:33 IST" duration-ms="18859" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:04:04 IST" duration-ms="19583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +37,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:19 IST" duration-ms="4266" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:03:57 IST" duration-ms="12432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should verify the login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be verifying the functionalities of Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:03:49 IST" duration-ms="4675" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -82,17 +82,17 @@ at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecuti
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
 at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: org.junit.AssumptionViolatedException: got: <false>, expected: is <true>
 at org.junit.Assume.assumeThat(Assume.java:106)
 at org.junit.Assume.assumeTrue(Assume.java:50)
@@ -103,7 +103,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:31 IST" duration-ms="12174" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:04:05 IST" duration-ms="15681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:40 IST" duration-ms="9199" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:03:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:04:10 IST" duration-ms="13215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:44 IST" duration-ms="12631" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:04:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:04:14 IST" duration-ms="9963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T21:08:47 IST" duration-ms="14243" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:04:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-08T16:04:17 IST" duration-ms="12221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at com.hooks.Hooks.skipScenarios(Hooks.java:26)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.TestNgRunnerCucumber7@3cce5371]" started-at="2024-08-28T21:08:47 IST" name="tearDownClass" finished-at="2024-08-28T21:08:53 IST" duration-ms="5773" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.TestNgRunnerCucumber7@38425407]" started-at="2024-10-08T16:04:17 IST" name="tearDownClass" finished-at="2024-10-08T16:04:24 IST" duration-ms="7352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
